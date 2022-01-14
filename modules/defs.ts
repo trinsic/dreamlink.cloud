@@ -47,7 +47,7 @@ export const GATEWAYS_CORS_BLOCKED = [
  */
 export const GATEWAYS_TRUSTED = [
   'ipfs.io',
-  'dweb.link',
+  /** 'dweb.link', */
   'infura-ipfs.io',
   'pinata.cloud'
 ]
