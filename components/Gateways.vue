@@ -42,7 +42,7 @@ export default Vue.extend({
     async fetchCID(): Promise<void> {
       await this.$ipfs.waitUntilReady()
 
-      const cidPath = await this.$ipfs.api.dns('www.dreamlink.cloud') as string
+      const cidPath = await this.$ipfs.api.dns('dreamlink-cloud.vercel.app') as string
 
       this.cid = cidPath.substring(6)
     }
